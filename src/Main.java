@@ -32,5 +32,9 @@ public class Main {
 //        3. Longest Substring Without Repeating Characters
         LongestSubstringWithoutRepeatingCharacter longestSubstring = new LongestSubstringWithoutRepeatingCharacter();
         System.out.println(longestSubstring.solution("abcabcbb"));
+
+//        4. Median of Two Sorted Arrays
+        MedianOfTwoSortedArrays medianOfTwoSortedArrays = new MedianOfTwoSortedArrays();
+        System.out.println(medianOfTwoSortedArrays.solution(new int[]{2, 3, 4, 9}, new int[]{1, 5, 8}));
     }
 }
